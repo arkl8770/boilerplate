@@ -1,0 +1,14 @@
+body{
+	background: $bgColor;
+	font-family: $baseFont;
+}
+
+p{
+	color: $fontColor;
+}
+
+header{
+	h1{
+		@include box;
+	}
+}
