@@ -6,6 +6,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Coiny");
 html {
   line-height: 1.15;
   /* 1 */
@@ -420,19 +421,106 @@ textarea {
   padding: 0.2em 0;
 }
 
-body {
-  background: #703030;
-  font-family: "Open Sans", sans-serif;
+.icon-sprite, .icon-android, .icon-apple, .icon-arch, .icon-basketball, .icon-beer, .icon-bong, .icon-cheese, .icon-skull, .icon-toast, .icon-trash {
+  background-image: url('../img/icon-scea6e337e7.png');
+  background-repeat: no-repeat;
 }
 
-p {
+.icon-android {
+  background-position: 0 -150px;
+}
+.icon-android:hover, .icon-android.android-hover {
+  background-position: 0 0;
+}
+
+.icon-apple {
+  background-position: 0 -450px;
+}
+.icon-apple:hover, .icon-apple.apple-hover {
+  background-position: 0 -300px;
+}
+
+.icon-arch {
+  background-position: 0 -750px;
+}
+.icon-arch:hover, .icon-arch.arch-hover {
+  background-position: 0 -600px;
+}
+
+.icon-basketball {
+  background-position: 0 -1050px;
+}
+.icon-basketball:hover, .icon-basketball.basketball-hover {
+  background-position: 0 -900px;
+}
+
+.icon-beer {
+  background-position: 0 -1350px;
+}
+.icon-beer:hover, .icon-beer.beer-hover {
+  background-position: 0 -1200px;
+}
+
+.icon-bong {
+  background-position: 0 -1650px;
+}
+.icon-bong:hover, .icon-bong.bong-hover {
+  background-position: 0 -1500px;
+}
+
+.icon-cheese {
+  background-position: 0 -1950px;
+}
+.icon-cheese:hover, .icon-cheese.cheese-hover {
+  background-position: 0 -1800px;
+}
+
+.icon-skull {
+  background-position: 0 -2250px;
+}
+.icon-skull:hover, .icon-skull.skull-hover {
+  background-position: 0 -2100px;
+}
+
+.icon-toast {
+  background-position: 0 -2550px;
+}
+.icon-toast:hover, .icon-toast.toast-hover {
+  background-position: 0 -2400px;
+}
+
+.icon-trash {
+  background-position: 0 -2850px;
+}
+.icon-trash:hover, .icon-trash.trash-hover {
+  background-position: 0 -2700px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
+header {
+  text-align: center;
+  font-family: "Coiny", cursive;
   color: white;
 }
 
-header h1 {
-  background: white;
-  border: solid 2px black;
-  padding: 10px 20px;
+body {
+  background: rgba(0, 0, 0, 0.8);
+  font-family: "Open Sans", sans-serif;
 }
 
 /* ==========================================================================
