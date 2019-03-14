@@ -1,5 +1,5 @@
-@import 'icon/*.png';
-@include all-icon-sprites;
+//@import 'icon/*.png';
+//@include all-icon-sprites;
 
 li {
 	list-style: none;
@@ -21,6 +21,8 @@ header {
 	text-align: center;
 	font-family: $headerFont;
 	color: $fontColor;
+	margin: 50px;
+
 }
 
 body{

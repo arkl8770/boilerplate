@@ -421,81 +421,6 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-android, .icon-apple, .icon-arch, .icon-basketball, .icon-beer, .icon-bong, .icon-cheese, .icon-skull, .icon-toast, .icon-trash {
-  background-image: url('../img/icon-scea6e337e7.png');
-  background-repeat: no-repeat;
-}
-
-.icon-android {
-  background-position: 0 -150px;
-}
-.icon-android:hover, .icon-android.android-hover {
-  background-position: 0 0;
-}
-
-.icon-apple {
-  background-position: 0 -450px;
-}
-.icon-apple:hover, .icon-apple.apple-hover {
-  background-position: 0 -300px;
-}
-
-.icon-arch {
-  background-position: 0 -750px;
-}
-.icon-arch:hover, .icon-arch.arch-hover {
-  background-position: 0 -600px;
-}
-
-.icon-basketball {
-  background-position: 0 -1050px;
-}
-.icon-basketball:hover, .icon-basketball.basketball-hover {
-  background-position: 0 -900px;
-}
-
-.icon-beer {
-  background-position: 0 -1350px;
-}
-.icon-beer:hover, .icon-beer.beer-hover {
-  background-position: 0 -1200px;
-}
-
-.icon-bong {
-  background-position: 0 -1650px;
-}
-.icon-bong:hover, .icon-bong.bong-hover {
-  background-position: 0 -1500px;
-}
-
-.icon-cheese {
-  background-position: 0 -1950px;
-}
-.icon-cheese:hover, .icon-cheese.cheese-hover {
-  background-position: 0 -1800px;
-}
-
-.icon-skull {
-  background-position: 0 -2250px;
-}
-.icon-skull:hover, .icon-skull.skull-hover {
-  background-position: 0 -2100px;
-}
-
-.icon-toast {
-  background-position: 0 -2550px;
-}
-.icon-toast:hover, .icon-toast.toast-hover {
-  background-position: 0 -2400px;
-}
-
-.icon-trash {
-  background-position: 0 -2850px;
-}
-.icon-trash:hover, .icon-trash.trash-hover {
-  background-position: 0 -2700px;
-}
-
 li {
   list-style: none;
   display: inline-block;
@@ -516,6 +441,7 @@ header {
   text-align: center;
   font-family: "Coiny", cursive;
   color: white;
+  margin: 50px;
 }
 
 body {
